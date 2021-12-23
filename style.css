@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(180, 54, 102);
+}
+
+h1 {
+  color: rgb(33, 11, 112);
+  background-color: cornsilk;
+}
+
+#sketch_name {
+  color: rgb(211, 183, 236);
+}
+
+#show_sketch {
+  float: right;
+}
+
+canvas {
+  border: 5px solid white;
+  border-radius: 20px;
+  animation-name: meghna;
+  animation-duration: 4s;
+  margin-top: 150px;
+  animation-iteration-count: infinite;
+}
+
+@keyframes meghna {
+  from {
+    box-shadow: 1px 1px 38px rgb(157, 152, 226);
+  }
+  to {
+    box-shadow: 1px 1px 38px rgb(202, 192, 192);
+  }
+}
+
+#score {
+  font-size: 35px;
+  margin-left: 20px;
+}
+
+#time {
+  font-size: 35px;
+  margin-right: 20px;
+  float: right;
+}
+
+p {
+  padding-top: 10px;
+  font-size: 25px;
+}
